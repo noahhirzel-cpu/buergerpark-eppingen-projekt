@@ -1,0 +1,37 @@
+
+/* Header-Banner für die Unterseite */
+
+
+/* Haupt-Inhaltsbereich ("Wir engagieren uns...") */
+.ueberuns {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/* Wichtigste Regel: Ordnet die Spalten nebeneinander an */
+.ueberuns .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Wichtig für kleine Bildschirme */
+}
+
+/* Steuert eine einzelne Spalte */
+.ueberuns-col {
+    flex-basis: 48%; /* Jede Spalte bekommt knapp die Hälfte der Breite */
+    padding: 10px;
+}
+
+.ueberuns-col img {
+    width: 100%;
+}
+
+.ueberuns-col h1 {
+    padding-top: 0;
+    font-size: 28px;
+}
+
+.ueberuns-col p {
+    padding: 15px 0 25px;
+}
